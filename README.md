@@ -187,24 +187,65 @@ int main()
         "Класика"
     };
     
-    string searchGenre;
-    cout << "Введіть назву жанру для пошуку" << endl;
-    cin >> searchGenre;
+    int sum = 0;
     
+    for (string genre : genres)
+    {
+        sum = sum + genre.length();
+    }
+    
+    cout << "Загальна кількість символів: " << sum;
+    
+    return 0;
+}
+```
+### 👁️ Візуалізація пам'яті:
+<img width="1412" height="552" alt="image" src="https://github.com/user-attachments/assets/c08f1d87-629c-47c4-afaa-3689f2760bbe" />
+<img width="1452" height="552" alt="image" src="https://github.com/user-attachments/assets/da7ceb98-78bd-4a03-82d3-ff5c91920f8c" />
+<img width="1527" height="588" alt="image" src="https://github.com/user-attachments/assets/63ad226c-1dd0-48e7-939c-d2be720a2b4a" />
+<img width="1205" height="501" alt="image" src="https://github.com/user-attachments/assets/91a57180-8f12-4c0f-95e2-3093de3bb7b9" />
+<img width="1216" height="352" alt="image" src="https://github.com/user-attachments/assets/d1697eaa-adb6-462f-abcb-7b45b717a3d5" />
+<img width="1503" height="592" alt="image" src="https://github.com/user-attachments/assets/4356e68f-74f6-4573-9e94-20a3462c908c" />
+
+---
+*Завдання 5. Вставка елемента у список*
+<img width="882" height="297" alt="image" src="https://github.com/user-attachments/assets/c7802f1a-3014-4fae-89f8-d06065ee081b" />
+<img width="1901" height="690" alt="image" src="https://github.com/user-attachments/assets/60bb6995-2deb-4b31-87cc-1cfa1d3d9e8c" />
+
+### 💻 Код програми:
+```
+#include <iostream>
+#include <forward_list>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    forward_list<string> genres = { "Рок", "Поп", "Джаз", "Реп", "Класика" };
+    string searchElement = "Джаз";
+    string newElement = "Блюз";
+
     auto it = genres.begin();
+    
     while (it != genres.end())
     {
-        if (*it == searchGenre)
+        if (*it == searchElement)
         {
-            cout << "Елемент знайдено";
+            genres.insert_after(it, newElement);
             break;
         }
         ++it;
     }
-    
+
     if (it == genres.end())
     {
-        cout << "Елемент не знайдено";
+        cout << "Елемент відсутній у списку" << endl;
+    }
+
+    for (auto i = genres.begin(); i != genres.end(); ++i)
+    {
+        cout << *i << " ";
     }
     
     return 0;
@@ -220,7 +261,6 @@ int main()
 <img width="1503" height="592" alt="image" src="https://github.com/user-attachments/assets/4356e68f-74f6-4573-9e94-20a3462c908c" />
 
 ---
-
 
 
 

@@ -28,9 +28,9 @@
 *Завдання 1. Ініціалізація та виведення елементів*
 
 <img width="918" height="256" alt="image" src="https://github.com/user-attachments/assets/610de888-1386-4c38-ac27-0d1200a41a43" />
+
 ### 💻 Код програми:
 ```
-```cpp
 #include <iostream>
 #include <forward_list>
 #include <string>

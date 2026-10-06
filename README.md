@@ -49,11 +49,6 @@ int main() {
 }
 ```
 ### 👁️ Візуалізація пам'яті:
-![Стрілочки пам'яті Розділ 1](lab4_sec1.png)
-
----
-
-
 <img width="1658" height="700" alt="image" src="https://github.com/user-attachments/assets/7ba3f7c8-328e-4cbf-a595-2df9c70a1773" />
 <img width="1618" height="676" alt="image" src="https://github.com/user-attachments/assets/888980d7-aab9-4e37-b1ff-e671e985249c" />
 <img width="1611" height="776" alt="image" src="https://github.com/user-attachments/assets/097a511f-aabd-489e-93b4-0c96efdb6094" />
@@ -61,6 +56,11 @@ int main() {
 <img width="1643" height="531" alt="image" src="https://github.com/user-attachments/assets/61b1bbaf-6b36-4283-be20-8fe9fa4fa30d" />
 <img width="1542" height="610" alt="image" src="https://github.com/user-attachments/assets/deb44e41-e92a-4b36-8643-b8e603c6c210" />
 <img width="1113" height="442" alt="image" src="https://github.com/user-attachments/assets/35820f5d-d775-4655-a330-f38a1269ad13" />
+
+---
+
+
+
 <img width="885" height="416" alt="image" src="https://github.com/user-attachments/assets/a32ee1bf-d573-4390-b258-2228b45d2608" />
 <img width="1907" height="783" alt="image" src="https://github.com/user-attachments/assets/8ddc86f5-e465-4eaa-8e19-3c56271637be" />
 <img width="1566" height="695" alt="image" src="https://github.com/user-attachments/assets/7895c9ab-e581-470a-aaad-5a9d2f854628" />

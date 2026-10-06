@@ -108,9 +108,8 @@ int main()
 ---
 *Завдання 3. Знаходження та перевірка наявності елемента*
 
-<img width="918" height="256" alt="image" src="https://github.com/user-attachments/assets/610de888-1386-4c38-ac27-0d1200a41a43" />
-<img width="825" height="52" alt="image" src="https://github.com/user-attachments/assets/bdba30af-6b37-4eba-bd01-73ccf8d4da3e" />
-<img width="1906" height="726" alt="image" src="https://github.com/user-attachments/assets/dd612f5c-3e99-4c84-b25d-6fe64295ab72" />
+<img width="963" height="608" alt="image" src="https://github.com/user-attachments/assets/c5e66040-4620-4146-b316-a472ca53a035" />
+<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/d09d5a9c-6c89-4f85-9ce9-4f05e262e233" />
 
 ### 💻 Код програми:
 ```
@@ -120,38 +119,112 @@ int main()
 
 using namespace std;
 
-int main() {
-    forward_list<string> genres = { "Рок", "Поп", "Джаз", "Реп", "Класика" };
-    cout << "Музичні жанри:" << endl;
-    for (string genre : genres) {
-        cout << genre << endl;
+int main()
+{
+    forward_list<string> genres = 
+    {
+        "Рок",
+        "Поп",
+        "Джаз",
+        "Реп",
+        "Класика"
+    };
+    
+    string searchGenre;
+    cout << "Введіть назву жанру для пошуку" << endl;
+    cin >> searchGenre;
+    
+    auto it = genres.begin();
+    while (it != genres.end())
+    {
+        if (*it == searchGenre)
+        {
+            cout << "Елемент знайдено";
+            break;
+        }
+        ++it;
     }
+    
+    if (it == genres.end())
+    {
+        cout << "Елемент не знайдено";
+    }
+    
     return 0;
+}
 }
 ```
 ### 👁️ Візуалізація пам'яті:
-<img width="1658" height="700" alt="image" src="https://github.com/user-attachments/assets/7ba3f7c8-328e-4cbf-a595-2df9c70a1773" />
-<img width="1618" height="676" alt="image" src="https://github.com/user-attachments/assets/888980d7-aab9-4e37-b1ff-e671e985249c" />
-<img width="1611" height="776" alt="image" src="https://github.com/user-attachments/assets/097a511f-aabd-489e-93b4-0c96efdb6094" />
-<img width="1215" height="450" alt="image" src="https://github.com/user-attachments/assets/f4614f6e-2a97-4a32-bec0-fc85048a34d2" />
-<img width="1643" height="531" alt="image" src="https://github.com/user-attachments/assets/61b1bbaf-6b36-4283-be20-8fe9fa4fa30d" />
-<img width="1542" height="610" alt="image" src="https://github.com/user-attachments/assets/deb44e41-e92a-4b36-8643-b8e603c6c210" />
-<img width="1113" height="442" alt="image" src="https://github.com/user-attachments/assets/35820f5d-d775-4655-a330-f38a1269ad13" />
-
----
-
-
-
-<img width="963" height="608" alt="image" src="https://github.com/user-attachments/assets/c5e66040-4620-4146-b316-a472ca53a035" />
-<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/d09d5a9c-6c89-4f85-9ce9-4f05e262e233" />
 <img width="1412" height="552" alt="image" src="https://github.com/user-attachments/assets/c08f1d87-629c-47c4-afaa-3689f2760bbe" />
 <img width="1452" height="552" alt="image" src="https://github.com/user-attachments/assets/da7ceb98-78bd-4a03-82d3-ff5c91920f8c" />
 <img width="1527" height="588" alt="image" src="https://github.com/user-attachments/assets/63ad226c-1dd0-48e7-939c-d2be720a2b4a" />
 <img width="1205" height="501" alt="image" src="https://github.com/user-attachments/assets/91a57180-8f12-4c0f-95e2-3093de3bb7b9" />
 <img width="1216" height="352" alt="image" src="https://github.com/user-attachments/assets/d1697eaa-adb6-462f-abcb-7b45b717a3d5" />
 <img width="1503" height="592" alt="image" src="https://github.com/user-attachments/assets/4356e68f-74f6-4573-9e94-20a3462c908c" />
+
+---
+
+*Завдання 4. Підрахунок кількості символів*
 <img width="882" height="297" alt="image" src="https://github.com/user-attachments/assets/c7802f1a-3014-4fae-89f8-d06065ee081b" />
 <img width="1901" height="690" alt="image" src="https://github.com/user-attachments/assets/60bb6995-2deb-4b31-87cc-1cfa1d3d9e8c" />
+
+### 💻 Код програми:
+```
+#include <iostream>
+#include <forward_list>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    forward_list<string> genres = 
+    {
+        "Рок",
+        "Поп",
+        "Джаз",
+        "Реп",
+        "Класика"
+    };
+    
+    string searchGenre;
+    cout << "Введіть назву жанру для пошуку" << endl;
+    cin >> searchGenre;
+    
+    auto it = genres.begin();
+    while (it != genres.end())
+    {
+        if (*it == searchGenre)
+        {
+            cout << "Елемент знайдено";
+            break;
+        }
+        ++it;
+    }
+    
+    if (it == genres.end())
+    {
+        cout << "Елемент не знайдено";
+    }
+    
+    return 0;
+}
+}
+```
+### 👁️ Візуалізація пам'яті:
+<img width="1412" height="552" alt="image" src="https://github.com/user-attachments/assets/c08f1d87-629c-47c4-afaa-3689f2760bbe" />
+<img width="1452" height="552" alt="image" src="https://github.com/user-attachments/assets/da7ceb98-78bd-4a03-82d3-ff5c91920f8c" />
+<img width="1527" height="588" alt="image" src="https://github.com/user-attachments/assets/63ad226c-1dd0-48e7-939c-d2be720a2b4a" />
+<img width="1205" height="501" alt="image" src="https://github.com/user-attachments/assets/91a57180-8f12-4c0f-95e2-3093de3bb7b9" />
+<img width="1216" height="352" alt="image" src="https://github.com/user-attachments/assets/d1697eaa-adb6-462f-abcb-7b45b717a3d5" />
+<img width="1503" height="592" alt="image" src="https://github.com/user-attachments/assets/4356e68f-74f6-4573-9e94-20a3462c908c" />
+
+---
+
+
+
+
+
 <img width="1590" height="581" alt="image" src="https://github.com/user-attachments/assets/fabe4108-c232-4e01-ab9e-c07f5894ce09" />
 <img width="1872" height="527" alt="image" src="https://github.com/user-attachments/assets/1a5f0b4b-01e9-43a3-9f50-f84143c6808b" />
 <img width="1850" height="487" alt="image" src="https://github.com/user-attachments/assets/e0d796fb-7d9b-4879-8cc0-7d55fa083921" />

@@ -25,12 +25,30 @@
 [ "Джаз" | next ] ---> [ "Блюз" | next ] ---> [ "Реп" | next ] ---> ...
 **Виконані завдання, програмний код та результати**
 
-**Завдання 1. Ініціалізація та виведення елементів*
+*Завдання 1. Ініціалізація та виведення елементів*
 
 <img width="918" height="256" alt="image" src="https://github.com/user-attachments/assets/610de888-1386-4c38-ac27-0d1200a41a43" />
 ### 💻 Код програми:
 ```cpp
-// Вставте код вашого варіанта 
+
+#include <iostream>
+#include <forward_list>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    forward_list<string> genres = { "Рок", "Поп", "Джаз", "Реп", "Класика" };
+    
+    cout << "Музичні жанри:" << endl;
+    for (string genre : genres)
+    {
+        cout << genre << endl;
+    }
+    
+    return 0;
+}
 ```
 ### 👁️ Візуалізація пам'яті:
 ![Стрілочки пам'яті Розділ 1](lab4_sec1.png)

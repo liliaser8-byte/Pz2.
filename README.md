@@ -59,11 +59,10 @@ int main() {
 
 ---
 
-*Завдання 1. Ініціалізація та виведення елементів*
+*Завдання 2. Додавання та видалення елементів.*
 
-<img width="918" height="256" alt="image" src="https://github.com/user-attachments/assets/610de888-1386-4c38-ac27-0d1200a41a43" />
-<img width="825" height="52" alt="image" src="https://github.com/user-attachments/assets/bdba30af-6b37-4eba-bd01-73ccf8d4da3e" />
-<img width="1906" height="726" alt="image" src="https://github.com/user-attachments/assets/dd612f5c-3e99-4c84-b25d-6fe64295ab72" />
+<img width="885" height="416" alt="image" src="https://github.com/user-attachments/assets/a32ee1bf-d573-4390-b258-2228b45d2608" />
+<img width="1907" height="783" alt="image" src="https://github.com/user-attachments/assets/8ddc86f5-e465-4eaa-8e19-3c56271637be" />
 
 ### 💻 Код програми:
 ```
@@ -73,13 +72,29 @@ int main() {
 
 using namespace std;
 
-int main() {
-    forward_list<string> genres = { "Рок", "Поп", "Джаз", "Реп", "Класика" };
-    cout << "Музичні жанри:" << endl;
-    for (string genre : genres) {
+int main()
+{
+    forward_list<string> genres = { "Рок" };
+    genres.push_front("Поп");
+    genres.push_front("Джаз");
+    
+    cout << "Список жанрів:" << endl;
+    for (string genre : genres)
+    {
         cout << genre << endl;
     }
+    
+    genres.pop_front();
+    
+    cout << endl;
+    cout << "Після видалення першого жанру:" << endl;
+    for (string genre : genres)
+    {
+        cout << genre << endl;
+    }
+    
     return 0;
+}
 }
 ```
 ### 👁️ Візуалізація пам'яті:
@@ -94,8 +109,7 @@ int main() {
 ---
 
 
-<img width="885" height="416" alt="image" src="https://github.com/user-attachments/assets/a32ee1bf-d573-4390-b258-2228b45d2608" />
-<img width="1907" height="783" alt="image" src="https://github.com/user-attachments/assets/8ddc86f5-e465-4eaa-8e19-3c56271637be" />
+
 <img width="1566" height="695" alt="image" src="https://github.com/user-attachments/assets/7895c9ab-e581-470a-aaad-5a9d2f854628" />
 <img width="1610" height="717" alt="image" src="https://github.com/user-attachments/assets/b2ab0e39-4c0b-4286-843a-aaa523b667d1" />
 <img width="1588" height="817" alt="image" src="https://github.com/user-attachments/assets/b754f3e1-fa4b-4296-8613-89465b3bcef8" />

@@ -98,6 +98,38 @@ int main()
 }
 ```
 ### 👁️ Візуалізація пам'яті:
+<img width="1610" height="717" alt="image" src="https://github.com/user-attachments/assets/b2ab0e39-4c0b-4286-843a-aaa523b667d1" />
+<img width="1588" height="817" alt="image" src="https://github.com/user-attachments/assets/b754f3e1-fa4b-4296-8613-89465b3bcef8" />
+<img width="1616" height="817" alt="image" src="https://github.com/user-attachments/assets/805ba4c8-03cb-4aa8-94d7-9324ba643427" />
+<img width="1911" height="642" alt="image" src="https://github.com/user-attachments/assets/a45f021f-443e-4188-bafa-74da4a84ad96" />
+<img width="1877" height="691" alt="image" src="https://github.com/user-attachments/assets/94e1dec6-9a3b-4074-8779-aa92c18dfdaf" />
+<img width="1492" height="607" alt="image" src="https://github.com/user-attachments/assets/7ecbf505-10a5-4aec-8cb9-a764981c2dd1" />
+
+---
+*Завдання 3. Знаходження та перевірка наявності елемента*
+
+<img width="918" height="256" alt="image" src="https://github.com/user-attachments/assets/610de888-1386-4c38-ac27-0d1200a41a43" />
+<img width="825" height="52" alt="image" src="https://github.com/user-attachments/assets/bdba30af-6b37-4eba-bd01-73ccf8d4da3e" />
+<img width="1906" height="726" alt="image" src="https://github.com/user-attachments/assets/dd612f5c-3e99-4c84-b25d-6fe64295ab72" />
+
+### 💻 Код програми:
+```
+#include <iostream>
+#include <forward_list>
+#include <string>
+
+using namespace std;
+
+int main() {
+    forward_list<string> genres = { "Рок", "Поп", "Джаз", "Реп", "Класика" };
+    cout << "Музичні жанри:" << endl;
+    for (string genre : genres) {
+        cout << genre << endl;
+    }
+    return 0;
+}
+```
+### 👁️ Візуалізація пам'яті:
 <img width="1658" height="700" alt="image" src="https://github.com/user-attachments/assets/7ba3f7c8-328e-4cbf-a595-2df9c70a1773" />
 <img width="1618" height="676" alt="image" src="https://github.com/user-attachments/assets/888980d7-aab9-4e37-b1ff-e671e985249c" />
 <img width="1611" height="776" alt="image" src="https://github.com/user-attachments/assets/097a511f-aabd-489e-93b4-0c96efdb6094" />
@@ -110,13 +142,6 @@ int main()
 
 
 
-<img width="1566" height="695" alt="image" src="https://github.com/user-attachments/assets/7895c9ab-e581-470a-aaad-5a9d2f854628" />
-<img width="1610" height="717" alt="image" src="https://github.com/user-attachments/assets/b2ab0e39-4c0b-4286-843a-aaa523b667d1" />
-<img width="1588" height="817" alt="image" src="https://github.com/user-attachments/assets/b754f3e1-fa4b-4296-8613-89465b3bcef8" />
-<img width="1616" height="817" alt="image" src="https://github.com/user-attachments/assets/805ba4c8-03cb-4aa8-94d7-9324ba643427" />
-<img width="1911" height="642" alt="image" src="https://github.com/user-attachments/assets/a45f021f-443e-4188-bafa-74da4a84ad96" />
-<img width="1877" height="691" alt="image" src="https://github.com/user-attachments/assets/94e1dec6-9a3b-4074-8779-aa92c18dfdaf" />
-<img width="1492" height="607" alt="image" src="https://github.com/user-attachments/assets/7ecbf505-10a5-4aec-8cb9-a764981c2dd1" />
 <img width="963" height="608" alt="image" src="https://github.com/user-attachments/assets/c5e66040-4620-4146-b316-a472ca53a035" />
 <img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/d09d5a9c-6c89-4f85-9ce9-4f05e262e233" />
 <img width="1412" height="552" alt="image" src="https://github.com/user-attachments/assets/c08f1d87-629c-47c4-afaa-3689f2760bbe" />

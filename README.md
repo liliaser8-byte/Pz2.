@@ -1,3 +1,37 @@
+Звіт про виконання практичної роботи
+
+Тема
+
+Використання однозв’язних списків std::forward_list у C++ (Стандартна бібліотека шаблонів STL).
+
+Мета роботи
+
+Ознайомитись із контейнером std::forward_list у стандартній бібліотеці шаблонів (STL) C++. Навчитись ініціалізувати списки, виконувати базові операції (додавання, видалення, пошук, вставка елементів), а також працювати з ітераторами для обробки даних у списку.
+
+Варіант 13: Музичні жанри
+
+Початкові елементи: Рок, Поп, Джаз, Реп, Класика
+
+Елемент для пошуку: Джаз
+
+Елемент для вставки: Блюз
+
+Візуалізація структури однозв’язного списку
+
+Однозв'язний список (forward_list) складається з вузлів. Кожен вузол містить значення (дані) та вказівник на наступний вузол. Перехід можливий лише в одному напрямку — від початку (Head) до кінця.
+
+[ Head ] 
+   |
+   v
+[ "Рок" | next ] ---> [ "Поп" | next ] ---> [ "Джаз" | next ] ---> [ "Реп" | next ] ---> [ "Класика" | next ] ---> nullptr
+
+
+Після додавання елемента "Блюз" після "Джаз" (Завдання 5):
+
+[ "Джаз" | next ] ---> [ "Блюз" | next ] ---> [ "Реп" | next ] ---> ...
+
+
+Виконані завдання, програмний код та результати
 <img width="918" height="256" alt="image" src="https://github.com/user-attachments/assets/610de888-1386-4c38-ac27-0d1200a41a43" />
 <img width="825" height="52" alt="image" src="https://github.com/user-attachments/assets/bdba30af-6b37-4eba-bd01-73ccf8d4da3e" />
 <img width="1906" height="726" alt="image" src="https://github.com/user-attachments/assets/dd612f5c-3e99-4c84-b25d-6fe64295ab72" />
@@ -34,3 +68,13 @@
 <img width="1602" height="416" alt="image" src="https://github.com/user-attachments/assets/f1f5e8f4-d5a1-4c60-a348-ac4487ad1e28" />
 <img width="1605" height="477" alt="image" src="https://github.com/user-attachments/assets/b6b70e5d-8826-46b0-822d-83992e747547" />
 <img width="1161" height="407" alt="image" src="https://github.com/user-attachments/assets/1edaf69d-e1e5-47fb-a06b-c4ed8c1c2aae" />
+<img width="685" height="288" alt="image" src="https://github.com/user-attachments/assets/4cc4eb70-31d4-4d6a-9864-3cd1c0e3cc44" />
+<img width="1863" height="786" alt="image" src="https://github.com/user-attachments/assets/35d4e6e3-8087-4b8b-8fa1-a0df05fb6813" />
+<img width="1761" height="495" alt="image" src="https://github.com/user-attachments/assets/6f11485b-4b97-4644-9126-c40313f778fe" />
+<img width="1728" height="485" alt="image" src="https://github.com/user-attachments/assets/38f452e1-ab8a-4138-a72a-ee495d04b577" />
+<img width="1717" height="470" alt="image" src="https://github.com/user-attachments/assets/4196408a-8a30-4460-a812-820be0abd6a1" />
+<img width="1720" height="607" alt="image" src="https://github.com/user-attachments/assets/d17f9df1-6710-4c07-af7d-5e43e2d11a16" />
+<img width="1675" height="587" alt="image" src="https://github.com/user-attachments/assets/48e3ada1-e78a-4b6e-92cd-c4ee4599ea62" />
+<img width="1712" height="481" alt="image" src="https://github.com/user-attachments/assets/c4712f65-a4f1-4c5f-a9f4-0517375f18ac" />
+<img width="1170" height="425" alt="image" src="https://github.com/user-attachments/assets/b7ab28d0-59e4-4c6a-9cd2-abbbe64554bc" />
+

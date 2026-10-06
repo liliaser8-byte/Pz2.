@@ -59,6 +59,39 @@ int main() {
 
 ---
 
+*Завдання 1. Ініціалізація та виведення елементів*
+
+<img width="918" height="256" alt="image" src="https://github.com/user-attachments/assets/610de888-1386-4c38-ac27-0d1200a41a43" />
+<img width="825" height="52" alt="image" src="https://github.com/user-attachments/assets/bdba30af-6b37-4eba-bd01-73ccf8d4da3e" />
+<img width="1906" height="726" alt="image" src="https://github.com/user-attachments/assets/dd612f5c-3e99-4c84-b25d-6fe64295ab72" />
+
+### 💻 Код програми:
+```
+#include <iostream>
+#include <forward_list>
+#include <string>
+
+using namespace std;
+
+int main() {
+    forward_list<string> genres = { "Рок", "Поп", "Джаз", "Реп", "Класика" };
+    cout << "Музичні жанри:" << endl;
+    for (string genre : genres) {
+        cout << genre << endl;
+    }
+    return 0;
+}
+```
+### 👁️ Візуалізація пам'яті:
+<img width="1658" height="700" alt="image" src="https://github.com/user-attachments/assets/7ba3f7c8-328e-4cbf-a595-2df9c70a1773" />
+<img width="1618" height="676" alt="image" src="https://github.com/user-attachments/assets/888980d7-aab9-4e37-b1ff-e671e985249c" />
+<img width="1611" height="776" alt="image" src="https://github.com/user-attachments/assets/097a511f-aabd-489e-93b4-0c96efdb6094" />
+<img width="1215" height="450" alt="image" src="https://github.com/user-attachments/assets/f4614f6e-2a97-4a32-bec0-fc85048a34d2" />
+<img width="1643" height="531" alt="image" src="https://github.com/user-attachments/assets/61b1bbaf-6b36-4283-be20-8fe9fa4fa30d" />
+<img width="1542" height="610" alt="image" src="https://github.com/user-attachments/assets/deb44e41-e92a-4b36-8643-b8e603c6c210" />
+<img width="1113" height="442" alt="image" src="https://github.com/user-attachments/assets/35820f5d-d775-4655-a330-f38a1269ad13" />
+
+---
 
 
 <img width="885" height="416" alt="image" src="https://github.com/user-attachments/assets/a32ee1bf-d573-4390-b258-2228b45d2608" />

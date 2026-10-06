@@ -200,17 +200,18 @@ int main()
 }
 ```
 ### 👁️ Візуалізація пам'яті:
-<img width="1412" height="552" alt="image" src="https://github.com/user-attachments/assets/c08f1d87-629c-47c4-afaa-3689f2760bbe" />
-<img width="1452" height="552" alt="image" src="https://github.com/user-attachments/assets/da7ceb98-78bd-4a03-82d3-ff5c91920f8c" />
-<img width="1527" height="588" alt="image" src="https://github.com/user-attachments/assets/63ad226c-1dd0-48e7-939c-d2be720a2b4a" />
-<img width="1205" height="501" alt="image" src="https://github.com/user-attachments/assets/91a57180-8f12-4c0f-95e2-3093de3bb7b9" />
-<img width="1216" height="352" alt="image" src="https://github.com/user-attachments/assets/d1697eaa-adb6-462f-abcb-7b45b717a3d5" />
-<img width="1503" height="592" alt="image" src="https://github.com/user-attachments/assets/4356e68f-74f6-4573-9e94-20a3462c908c" />
+<img width="1590" height="581" alt="image" src="https://github.com/user-attachments/assets/fabe4108-c232-4e01-ab9e-c07f5894ce09" />
+<img width="1872" height="527" alt="image" src="https://github.com/user-attachments/assets/1a5f0b4b-01e9-43a3-9f50-f84143c6808b" />
+<img width="1850" height="487" alt="image" src="https://github.com/user-attachments/assets/e0d796fb-7d9b-4879-8cc0-7d55fa083921" />
+<img width="1706" height="505" alt="image" src="https://github.com/user-attachments/assets/5f955b7c-f2ca-45d8-85ea-2853dcce0e52" />
+<img width="1602" height="416" alt="image" src="https://github.com/user-attachments/assets/f1f5e8f4-d5a1-4c60-a348-ac4487ad1e28" />
+<img width="1605" height="477" alt="image" src="https://github.com/user-attachments/assets/b6b70e5d-8826-46b0-822d-83992e747547" />
+<img width="1161" height="407" alt="image" src="https://github.com/user-attachments/assets/1edaf69d-e1e5-47fb-a06b-c4ed8c1c2aae" />
 
 ---
 *Завдання 5. Вставка елемента у список*
-<img width="882" height="297" alt="image" src="https://github.com/user-attachments/assets/c7802f1a-3014-4fae-89f8-d06065ee081b" />
-<img width="1901" height="690" alt="image" src="https://github.com/user-attachments/assets/60bb6995-2deb-4b31-87cc-1cfa1d3d9e8c" />
+<img width="685" height="288" alt="image" src="https://github.com/user-attachments/assets/4cc4eb70-31d4-4d6a-9864-3cd1c0e3cc44" />
+<img width="1863" height="786" alt="image" src="https://github.com/user-attachments/assets/35d4e6e3-8087-4b8b-8fa1-a0df05fb6813" />
 
 ### 💻 Код програми:
 ```
@@ -254,21 +255,6 @@ int main()
 ```
 ### 👁️ Візуалізація пам'яті:
 
-
----
-
-
-
-
-<img width="1590" height="581" alt="image" src="https://github.com/user-attachments/assets/fabe4108-c232-4e01-ab9e-c07f5894ce09" />
-<img width="1872" height="527" alt="image" src="https://github.com/user-attachments/assets/1a5f0b4b-01e9-43a3-9f50-f84143c6808b" />
-<img width="1850" height="487" alt="image" src="https://github.com/user-attachments/assets/e0d796fb-7d9b-4879-8cc0-7d55fa083921" />
-<img width="1706" height="505" alt="image" src="https://github.com/user-attachments/assets/5f955b7c-f2ca-45d8-85ea-2853dcce0e52" />
-<img width="1602" height="416" alt="image" src="https://github.com/user-attachments/assets/f1f5e8f4-d5a1-4c60-a348-ac4487ad1e28" />
-<img width="1605" height="477" alt="image" src="https://github.com/user-attachments/assets/b6b70e5d-8826-46b0-822d-83992e747547" />
-<img width="1161" height="407" alt="image" src="https://github.com/user-attachments/assets/1edaf69d-e1e5-47fb-a06b-c4ed8c1c2aae" />
-<img width="685" height="288" alt="image" src="https://github.com/user-attachments/assets/4cc4eb70-31d4-4d6a-9864-3cd1c0e3cc44" />
-<img width="1863" height="786" alt="image" src="https://github.com/user-attachments/assets/35d4e6e3-8087-4b8b-8fa1-a0df05fb6813" />
 <img width="1761" height="495" alt="image" src="https://github.com/user-attachments/assets/6f11485b-4b97-4644-9126-c40313f778fe" />
 <img width="1728" height="485" alt="image" src="https://github.com/user-attachments/assets/38f452e1-ab8a-4138-a72a-ee495d04b577" />
 <img width="1717" height="470" alt="image" src="https://github.com/user-attachments/assets/4196408a-8a30-4460-a812-820be0abd6a1" />
@@ -276,4 +262,12 @@ int main()
 <img width="1675" height="587" alt="image" src="https://github.com/user-attachments/assets/48e3ada1-e78a-4b6e-92cd-c4ee4599ea62" />
 <img width="1712" height="481" alt="image" src="https://github.com/user-attachments/assets/c4712f65-a4f1-4c5f-a9f4-0517375f18ac" />
 <img width="1170" height="425" alt="image" src="https://github.com/user-attachments/assets/b7ab28d0-59e4-4c6a-9cd2-abbbe64554bc" />
+
+---
+
+
+
+
+
+
 
